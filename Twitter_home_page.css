@@ -1,0 +1,168 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  height: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.content-info {
+  width: 50%;
+  background-color: #71c9f8;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-container {
+  z-index: 10;
+}
+.description-element {
+  line-height: 30px;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 40px;
+  /*display: flex;*/
+  
+}
+
+.description-svg {
+  height: 28px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.description-text {
+  display: inline-block;
+}
+
+.background-bird {
+  top: 0;
+  right: 0;
+  position: absolute;
+  height: 160vh;
+  top: -30vh;
+  right: -50vh;
+  height: 160vh;
+}
+
+.background-bird svg {
+  height: 100%;
+}
+
+
+
+.content-signup {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.footer {
+  background-color:white;
+  text-align: center;
+  padding: 15px 15px;
+  flex-grow: 0;
+  
+}
+
+.footer-item {
+  color: rgb(136, 153, 166);
+  margin-right: 10px;
+  font-size: 7px;
+  text-decoration: none;
+}
+
+.list li{
+				list-style-type: none;
+				display: inline-block;
+}
+}
+
+#pp {
+				font-size: 25px;
+}
+
+#dd{
+				font-size: 12px;
+}
+
+
+input[type=button] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 50px 50px 50px 50px;
+  
+}
+
+#button1{
+				background-color: rgba(29,161,242,1.00);
+				border: none;
+				font-weight: bold;
+}
+
+#button2{
+				background-color:white;
+				border-color:#71c9f8 ;
+				color: rgba(29,161,242,1.00);
+				font-weight: bold;
+}
+
+a:hover{
+				color:#71c9f8;
+}
+
+#b3{
+				/*margin: 8px 0;*/
+				width: 20%;				
+				margin-left: 5px;
+				margin-top: 5px;
+				background-color:white;    border-color:rgba(29,161,242,1.00);
+				color: rgba(29,161,242,1.00);
+				font-weight: bold;
+}
+				
+
+#name{
+     margin-bottom: 5px;
+				width: 75%;
+				border: none;
+				border-bottom: 3px solid #d9d9d9;
+				outline-style: none;
+				background-color:  whitesmoke;
+}
+.form1{
+				display: flex;
+				flex-direction: row;
+				margin-bottom: 140px;
+} 
+
+.in2{
+				margin-left: 5px;
+}
+ .help{
+ 				
+ }
